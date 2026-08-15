@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --brand-olive: #81a333;
+  --brand-green: #5f8447;
+  --brand-green-light: #9ac655;
+  --brand-purple: #945897;
+  --brand-charcoal: #2a2a2a;
+  --brand-black: #0f0f0f;
+  --brand-white: #ffffff;
+  --brand-cream: #e7e2d2;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-semibold tracking-tight text-brand-black;
+  }
+
+  a {
+    @apply text-brand-green transition-colors hover:text-brand-olive;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--brand-green-light);
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
+}
+
+@layer utilities {
+  .container-page {
+    @apply mx-auto w-full max-w-container px-4 sm:px-6 lg:px-8;
+  }
+
+  .section-y {
+    @apply py-14 sm:py-20 lg:py-24;
+  }
+
+  .bg-dot-grid {
+    background-image: radial-gradient(currentColor 1.5px, transparent 1.5px);
+    background-size: 18px 18px;
+  }
+
+  .bg-topo-lines {
+    background-image: repeating-linear-gradient(
+      -45deg,
+      currentColor 0,
+      currentColor 1.5px,
+      transparent 1.5px,
+      transparent 16px
+    );
+  }
+
+  .clip-angle-b {
+    clip-path: polygon(0 0, 100% 0, 100% calc(100% - 3vw), 0 100%);
+  }
+
+  .clip-angle-t {
+    clip-path: polygon(0 3vw, 100% 0, 100% 100%, 0 100%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
