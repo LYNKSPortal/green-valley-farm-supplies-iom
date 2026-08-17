@@ -9,8 +9,14 @@ export const categories: ProductCategory[] = [
     shortDescription: "Twinwall pipe, land drainage and MDPE water main.",
     intro:
       "We stock a comprehensive range of drainage and water management products for agricultural, domestic and commercial applications.",
-    heroImage: { alt: "Stacks of twinwall drainage pipe ready for despatch" },
-    cardImage: { alt: "Coils of land drainage pipe stacked in the yard" },
+    heroImage: {
+      src: "/drainage-and-water.jpg",
+      alt: "Stacks of twinwall drainage pipe ready for despatch",
+    },
+    cardImage: {
+      src: "/drainage-and-water.jpg",
+      alt: "Coils of land drainage pipe stacked in the yard",
+    },
     sections: [
       {
         heading: "Twinwall Pipes",
@@ -29,10 +35,10 @@ export const categories: ProductCategory[] = [
       },
     ],
     products: [
-      { slug: "twinwall-pipe", name: "Twinwall Pipe", description: "Perforated and solid wall twinwall pipe with fittings.", availability: "in-stock", image: { alt: "Lengths of twinwall pipe" } },
-      { slug: "land-drainage-coil", name: "Land Drainage Coil", description: "High stock levels of flexible land drainage coil.", availability: "in-stock", image: { alt: "Coiled land drainage pipe" } },
-      { slug: "land-drainage-fittings", name: "Land Drainage Fittings", description: "Joiners, reducers and Y-joints for drainage coil.", availability: "in-stock", image: { alt: "Land drainage joiners and fittings" } },
-      { slug: "blue-mdpe-water-main", name: "Blue MDPE Water Main", description: "Blue MDPE water main pipe with compression fittings.", availability: "in-stock", image: { alt: "Reel of blue MDPE water main pipe" } },
+      { slug: "twinwall-pipe", name: "Twinwall Pipe", description: "Perforated and solid wall twinwall pipe with fittings.", availability: "in-stock", image: { src: "/twinwall-pipe.jpg", alt: "Lengths of twinwall pipe" } },
+      { slug: "land-drainage-coil", name: "Land Drainage Coil", description: "High stock levels of flexible land drainage coil.", availability: "in-stock", image: { src: "/land-drainage-coil.jpg", alt: "Coiled land drainage pipe" } },
+      { slug: "land-drainage-fittings", name: "Land Drainage Fittings", description: "Joiners, reducers and Y-joints for drainage coil.", availability: "in-stock", image: { src: "/land-drainage-fittings.jpg", alt: "Land drainage joiners and fittings" } },
+      { slug: "blue-mdpe-water-main", name: "Blue MDPE Water Main", description: "Blue MDPE water main pipe with compression fittings.", availability: "in-stock", image: { src: "/blue-mdpe-water-main.jpg", alt: "Reel of blue MDPE water main pipe" } },
     ],
     gallery: [
       { alt: "Twinwall pipe stacked in the yard" },
@@ -63,8 +69,14 @@ export const categories: ProductCategory[] = [
     shortDescription: "Box profile, fibre cement roofing and guttering systems.",
     intro:
       "A comprehensive range of roofing, sheeting and guttering products for agricultural, industrial, commercial and domestic projects.",
-    heroImage: { alt: "Galvanised box profile roofing sheets stacked in the yard" },
-    cardImage: { alt: "Fibre cement roofing sheets and trims" },
+    heroImage: {
+      src: "/roofing-and-guttering.jpg",
+      alt: "Galvanised box profile roofing sheets stacked in the yard",
+    },
+    cardImage: {
+      src: "/roofing-and-guttering.jpg",
+      alt: "Fibre cement roofing sheets and trims",
+    },
     sections: [
       {
         heading: "Roofing Materials",
@@ -114,8 +126,14 @@ export const categories: ProductCategory[] = [
     shortDescription: "Fence panels, sleepers, decking and chestnut fencing.",
     intro:
       "A broad range of timber, fencing and landscaping products for gardens, properties, farms and commercial projects.",
-    heroImage: { alt: "Timber fence panels stacked in the timber yard" },
-    cardImage: { alt: "Railway sleepers stacked for a landscaping project" },
+    heroImage: {
+      src: "/timber-yard.jpg",
+      alt: "Timber fence panels stacked in the timber yard",
+    },
+    cardImage: {
+      src: "/timber-yard.jpg",
+      alt: "Railway sleepers stacked for a landscaping project",
+    },
     sections: [
       {
         heading: "Timber Products",
@@ -158,8 +176,14 @@ export const categories: ProductCategory[] = [
     shortDescription: "Low-maintenance decking, cladding, fencing and balustrade.",
     intro:
       "Low-maintenance contemporary products for modern gardens, outdoor spaces and property improvements.",
-    heroImage: { alt: "Composite decking boards in a modern garden setting" },
-    cardImage: { alt: "Composite cladding fitted to a garden building" },
+    heroImage: {
+      src: "/composite-products.jpg",
+      alt: "Composite decking boards in a modern garden setting",
+    },
+    cardImage: {
+      src: "/composite-products.jpg",
+      alt: "Composite cladding fitted to a garden building",
+    },
     sections: [
       {
         heading: "Composite Range",
@@ -199,8 +223,14 @@ export const categories: ProductCategory[] = [
     title: "Bespoke Gates",
     shortDescription: "Made-to-measure timber, aluminium and composite gates.",
     intro: "Made-to-measure gates supplied in a range of materials, designs and finishes.",
-    heroImage: { alt: "Hardwood driveway gate fitted at a property entrance" },
-    cardImage: { alt: "Wrought iron gate with decorative finials" },
+    heroImage: {
+      src: "/bespoke-gates.jpg",
+      alt: "Hardwood driveway gate fitted at a property entrance",
+    },
+    cardImage: {
+      src: "/bespoke-gates.jpg",
+      alt: "Wrought iron gate with decorative finials",
+    },
     sections: [
       {
         heading: "Bespoke, Made-to-Measure Gates",
@@ -248,8 +278,14 @@ export const categories: ProductCategory[] = [
     shortDescription: "Cattle and sheep handling, feeding and housing equipment.",
     intro:
       "A comprehensive range of livestock housing, feeding and handling equipment from trusted agricultural manufacturers.",
-    heroImage: { alt: "Cattle feeder in a livestock housing shed" },
-    cardImage: { alt: "Sheep housing equipment set up in a farm building" },
+    heroImage: {
+      src: "/housing-feeding-equipment.jpg",
+      alt: "Cattle feeder in a livestock housing shed",
+    },
+    cardImage: {
+      src: "/housing-feeding-equipment.jpg",
+      alt: "Sheep housing equipment set up in a farm building",
+    },
     sections: [
       {
         heading: "Livestock Equipment",
@@ -317,7 +353,10 @@ export const categories: ProductCategory[] = [
     shortDescription: "Grass seed, field gates, troughs and agricultural fencing.",
     intro: "A wide range of everyday agricultural essentials for farms, livestock, fencing and land management.",
     heroImage: { alt: "Galvanised steel field gate in a farm boundary" },
-    cardImage: { alt: "Concrete water trough in a livestock field" },
+    cardImage: {
+      src: "/equipment-and-supplies.jpg",
+      alt: "Concrete water trough in a livestock field",
+    },
     sections: [
       {
         heading: "Grass Seed",
@@ -388,8 +427,14 @@ export const categories: ProductCategory[] = [
     title: "Equestrian",
     shortDescription: "Stables, field shelters, fencing and bedding.",
     intro: "Practical equestrian products for stables, paddocks, fencing and horse care.",
-    heroImage: { alt: "Timber stable block and field shelter in a paddock" },
-    cardImage: { alt: "Timber field shelter for horses" },
+    heroImage: {
+      src: "/equestrian.jpg",
+      alt: "Timber stable block and field shelter in a paddock",
+    },
+    cardImage: {
+      src: "/equestrian.jpg",
+      alt: "Timber field shelter for horses",
+    },
     sections: [
       {
         heading: "Stables & Field Shelters",
@@ -447,8 +492,14 @@ export const categories: ProductCategory[] = [
     title: "Garden Furniture",
     shortDescription: "Picnic tables, companion sets and relaxer seating.",
     intro: "Quality garden furniture available to view in our showroom and supplied ready to enjoy.",
-    heroImage: { alt: "Wooden garden furniture set displayed in a showroom" },
-    cardImage: { alt: "Wooden picnic table on a lawn" },
+    heroImage: {
+      src: "/garden-furniture-02.jpg",
+      alt: "Wooden garden furniture set displayed in a showroom",
+    },
+    cardImage: {
+      src: "/garden-furniture-02.jpg",
+      alt: "Wooden picnic table on a lawn",
+    },
     sections: [
       {
         heading: "Garden Furniture Range",
@@ -489,8 +540,14 @@ export const categories: ProductCategory[] = [
     title: "Greenhouses",
     shortDescription: "Greenhouses from 4ft to 24ft, made to your requirements.",
     intro: "Greenhouses for gardens and growing spaces of all sizes.",
-    heroImage: { alt: "Greenhouse set up in a garden growing space" },
-    cardImage: { alt: "Aluminium framed greenhouse" },
+    heroImage: {
+      src: "/greenhouses-02.jpg",
+      alt: "Greenhouse set up in a garden growing space",
+    },
+    cardImage: {
+      src: "/greenhouses-02.jpg",
+      alt: "Aluminium framed greenhouse",
+    },
     sections: [
       {
         heading: "A Range to Suit Every Garden",

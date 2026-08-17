@@ -62,6 +62,7 @@ export default function HomePage() {
         title="Furniture, Greenhouses & Landscaping Materials"
         body="Our showroom displays garden furniture ready to view and try, alongside greenhouses, composite decking and landscaping materials to suit gardens of every size."
         href="/garden"
+        image={{ src: "/garden-furniture.jpg", alt: "Garden and landscaping materials at Green Valley Supplies" }}
       />
 
       <ShowcaseSection

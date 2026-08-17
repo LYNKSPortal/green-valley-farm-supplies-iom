@@ -15,7 +15,10 @@ export function Hero() {
     <section className="relative overflow-hidden bg-brand-charcoal">
       <div className="relative h-[520px] w-full sm:h-[580px] lg:h-[640px]">
         <SmartImage
-          image={{ alt: "Wide view of the Green Valley Supplies yard stocked with agricultural and building materials" }}
+          image={{
+            src: "/hero-bg.jpg",
+            alt: "Wide view of the Green Valley Supplies yard stocked with agricultural and building materials",
+          }}
           priority
           sizes="100vw"
           className="opacity-90"
